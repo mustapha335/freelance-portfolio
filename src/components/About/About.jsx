@@ -7,7 +7,7 @@ const About = () => {
       <div className='about-wrapper'>
         <div className='left'>
           <div className='about-title'>
-            <h2 className='underline--blue'>Who Am I?</h2>
+            <h2 className='underline'>Who Am I?</h2>
           </div>
           <h2 className='about-desc'>
             Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex

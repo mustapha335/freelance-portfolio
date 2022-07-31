@@ -1,7 +1,8 @@
 .about-container {
-  height: 70vh;
+  height: 76vh;
   width: 100vw;
   background-color: #141e28;
+  margin-top: 0%;
 }
 .about-wrapper {
   display: flex;
@@ -25,24 +26,24 @@
   font-size: 30px;
   color: #715b58;
 }
-.underline--blue {
+.underline {
   border-bottom: 6px solid #cb9e4b;
-  width: auto;
+  width: 16rem;
 }
 .about-desc {
   color: #715b58;
 }
 .imagebg {
   position: relative;
-  height: 19.7rem;
-  width: 23.2rem;
+  height: 21rem;
+  width: 23.1rem;
   background-color: #715b58;
   margin-left: -4.6rem;
 }
 .about-img {
   position: absolute;
-  height: 22.4rem;
+  height: 23.7rem;
   width: 23rem;
   margin-left: -16rem;
-  margin-top: -25rem;
+  margin-top: -25.5rem;
 }
