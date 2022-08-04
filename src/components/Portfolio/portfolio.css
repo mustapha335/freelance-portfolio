@@ -1,0 +1,87 @@
+@import "https://unpkg.com/transition-style";
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.portfolio-wrapper {
+  background-color: rgba(4, 4, 4, 0.279);
+  margin-top: 50px;
+
+  cursor: pointer;
+}
+.portfolio {
+  background-color: #3c2b2d;
+  height: 80vh;
+}
+.portfolio-item {
+  display: flex;
+  justify-content: center;
+}
+.portofilo-img {
+  height: 20rem;
+  width: 18rem;
+  margin: 4rem 3rem;
+  object-fit: cover;
+}
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.portfolio-item_wrapper {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+
+  background-color: rgba(255, 254, 254, 0.089);
+  height: 20rem;
+  width: 18rem;
+  /* display: none; */
+  /* visibility: hidden;
+  transition: all 1s ease-in-out; */
+}
+
+.portfolio-icon_top {
+  transform: rotate(45deg);
+  color: rgba(0, 0, 0, 0.75);
+  font-weight: light;
+}
+.portfolio-icon_bottom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: rotate(224deg);
+  color: rgba(0, 0, 0, 0.75);
+  font-weight: light;
+}
+.portfolio-icon_mid {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  letter-spacing: 2px;
+}
+.portfolio-icon_midText {
+  color: #715b58;
+  font-size: 1.7rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.portfolio-button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(114, 110, 110, 0.394);
+  color: rgba(0, 0, 0, 0.848);
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 17px;
+}
